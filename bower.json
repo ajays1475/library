@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "ajays1475 <ajays1475@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ajays1475/library",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "font-awesome": "^5.0.10"
+  }
+}
