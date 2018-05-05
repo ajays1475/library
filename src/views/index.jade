@@ -1,0 +1,21 @@
+html    
+    head   
+        //- bower:css
+        link(rel='stylesheet', href='/lib/bootstrap/dist/css/bootstrap.css')
+        //- endbower
+        //- bower:js
+        script(src='/lib/bootstrap/dist/js/bootstrap.js')
+        script(src='/lib/jquery/dist/jquery.js')
+        //- endbower 
+        //- inject:css
+        link(rel="stylesheet", href="/css/styles.css")
+        //- endinject
+        //- inject:js
+        script(src="/js/app.js")
+        //- endinject
+        title MyApp
+    body(class='MyClass')   
+        h1(id='MiId') My App
+        ul
+            each val in list
+                li= val
